@@ -1,0 +1,74 @@
+@startuml
+
+skinparam participant {
+    BorderColor Black
+    BorderThickness 1
+    FontName Helvetica
+    FontSize 13
+    BackgroundColor 0066A1
+    HeaderBackgroundColor 0066A1
+    AttributeFontColor black
+    FontColor White
+    FontStyle bold
+}
+
+
+skinparam sequence {
+    ArrowColor Black
+    GroupBackgroundColor 0066A1
+    GroupHeaderFontColor White
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+    FontColor red
+}
+
+skinparam class  {
+    ArrowColor Black
+    BackgroundColor transparent
+    GroupHeaderFontColor White
+    BorderColor  Black
+    LifeLineBackgroundColor White
+    FontColor Black
+}
+
+skinparam note {
+    BackgroundColor  transparent
+    FontColor 3284B3
+    BorderColor black
+}
+
+
+class WolksvagenFactory{
+{method} # createWolksvagen(): WolksVagenCar
+{method} + getWolkvagenCar(): WolksVagenCar
+}
+class WolksvagenGolfFactory{
+{method} # createWolksvagen(): WolksVagenCar
+}
+class WolksvagenPassatFactory{
+{method} # createWolksvagen(): WolksVagenCar
+}
+class Client{
+{method}+ main (String[])
+}
+class Golf{
+{method} + methodeA()
+}
+class Passat{
+{method} + methodeA()
+}
+class WolksVagenCar{
+{method} + methodeA()
+}
+
+WolksvagenFactory <.. Client
+Client ..> WolksVagenCar
+WolksvagenFactory <|-- WolksvagenGolfFactory
+WolksvagenFactory <|-- WolksvagenPassatFactory
+WolksvagenGolfFactory ...> Golf
+WolksvagenPassatFactory ...> Passat
+WolksVagenCar <|-- Golf
+WolksVagenCar <|-- Passat
+
+
+@enduml
