@@ -1,0 +1,18 @@
+//
+// file: index.adoc
+//
+
+= Florian's Documentation
+:sectnums:
+:toc: left
+:toclevels: 3
+
+:toc!:
+:imagesoutdir: img/UML
+
+
+Welcome to my documentation here you can find documentation about :
+
+== <<designPattern.adoc#,DesignPattern>>
+== <<asciidoc.adoc#,About this documentation>>
+

@@ -1,0 +1,33 @@
+//
+// file: index.adoc
+//
+
+= Design Pattern
+:sectnums:
+:toc: left
+:toclevels: 3
+:imagesoutdir: img/UML
+:imagesdir: img/UML
+
+:toc!:
+
+
+*2020-10-20*
+
+Design Pattern in oriented object development allow programmers to use development techniques in order obtain lighter sources and easier to enrich.The purpose of this chapter is to present  most famous design patterns known. All those  chapters are illustrated with examples through my github project available https://github.com/florianley/designPaterns[here]
+
+== Creation Models
+=== Factory
+The factory allow to creat a different object type according to the context. Thanks to polymorphism an object is still the same than the mother class but executed methods come from the created instance.
+
+Factory method is useful when :
+
+* The client can't define an object type before the execution
+* There is a desire to centralize the creation of objects
+
+==== Factory with an abstract way
+The main factory is abstract. A Factory have to be indirectly linked to an abstract object. The link is made through Factories legacies and object's legacies. In the following case, every Wolkswagenfactories (WolksVagenGolfFactory and WolksVagenPassatFactory)  instenciates in the same methode from Wolkswagenfactories a car of their own
+
+plantuml::plantuml/designPattern/Factory.puml[format=svg, alt="Class diagram"]
+
+

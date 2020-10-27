@@ -1,0 +1,18 @@
+//
+// file: asciidoc.adoc
+//
+= About Florian's documentation
+:sectnums:
+:toc: left
+:toclevels: 3
+:imagesoutdir: img
+
+
+:toc!:
+
+*2020-10-26*
+
+
+image::img/soonpika.gif[pika]
+
+*Coming soon...*

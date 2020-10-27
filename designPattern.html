@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<title>Florian&#8217;s Documentation</title>
+<title>Design Pattern</title>
 <style>
 @import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.css);
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
@@ -654,12 +654,19 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Florian&#8217;s Documentation</h1>
+<h1>Design Pattern</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_designpattern">1. DesignPattern</a></li>
-<li><a href="#_about_this_documentation">2. About this documentation</a></li>
+<li><a href="#_creation_models">1. Creation Models</a>
+<ul class="sectlevel2">
+<li><a href="#_factory">1.1. Factory</a>
+<ul class="sectlevel3">
+<li><a href="#_factory_with_an_abstract_way">1.1.1. Factory with an abstract way</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -667,26 +674,52 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Welcome to my documentation here you can find documentation about :</p>
+<p><strong>2020-10-20</strong></p>
+</div>
+<div class="paragraph">
+<p>Design Pattern in oriented object development allow programmers to use development techniques in order obtain lighter sources and easier to enrich.The purpose of this chapter is to present  most famous design patterns known. All those  chapters are illustrated with examples through my github project available <a href="https://github.com/florianley/designPaterns">here</a></p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_designpattern">1. <a href="designPattern.html">DesignPattern</a></h2>
+<h2 id="_creation_models">1. Creation Models</h2>
 <div class="sectionbody">
-
+<div class="sect2">
+<h3 id="_factory">1.1. Factory</h3>
+<div class="paragraph">
+<p>The factory allow to creat a different object type according to the context. Thanks to polymorphism an object is still the same than the mother class but executed methods come from the created instance.</p>
+</div>
+<div class="paragraph">
+<p>Factory method is useful when :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The client can&#8217;t define an object type before the execution</p>
+</li>
+<li>
+<p>There is a desire to centralize the creation of objects</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_factory_with_an_abstract_way">1.1.1. Factory with an abstract way</h4>
+<div class="paragraph">
+<p>The main factory is abstract. A Factory have to be indirectly linked to an abstract object. The link is made through Factories legacies and object&#8217;s legacies. In the following case, every Wolkswagenfactories (WolksVagenGolfFactory and WolksVagenPassatFactory)  instenciates in the same methode from Wolkswagenfactories a car of their own</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/UML/Factory.svg" alt="Class diagram" width="658" height="455">
 </div>
 </div>
-<div class="sect1">
-<h2 id="_about_this_documentation">2. <a href="asciidoc.html">About this documentation</a></h2>
-<div class="sectionbody">
-
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-10-26 17:06:38 UTC
+Last updated 2020-10-26 17:05:28 UTC
 </div>
 </div>
 </body>
