@@ -5,14 +5,25 @@
 :sectnums:
 :toc: left
 :toclevels: 3
-:imagesoutdir: img
-
+:imagesoutdir: ../img
+:imagesdir: img
 
 :toc!:
 
-*2020-10-26*
+*2020-10-28*
+
+== Asciidoc
+
+This blog is fully developed throughout https://asciidoctor.org/docs/what-is-asciidoc/#what-is-asciidoc[Asciidocs ]files and compiled with https://asciidoctor.org/[Asciidoctor]. Ascidoctor is an open source project useful to convert plain text files (Asciidoc files) content to HTML5, PDF and other formats.
+
+image::asciidoctor-gist-demo.png[align=center]
+
+With Acsidoc you can easily create documentation linked to your development projects.
+Gitlab include automatic processors witch display  you documentation directly in your repository.
+
+image::soonpika.gif[pika]
 
 
-image::img/soonpika.gif[pika]
 
-*Coming soon...*
+== Plant UML
+
