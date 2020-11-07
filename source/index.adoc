@@ -21,13 +21,13 @@ Welcome to my documentation. Here you can find information about different devel
 |===
 |Subject |Link
 
-a|image::principes.png[align=center,float=left]
-principles of development
+a|image::principes.png[align=center]|*principles of development :*
 
-|<<designPattern.adoc#,DesignPattern>>
+<<designPattern.adoc#,DesignPattern>>
 
-a|image::furby.png[align=center,float=left]
-About| <<asciidoc.adoc#,About this documentation>>
+a|image::furby.png[align=center]| *About*
+
+<<asciidoc.adoc#,About this documentation>>
 |===
 
 https://www.iconfinder.com/iconsets/kameleon-free-pack-rounded[Images sources]
