@@ -12,6 +12,7 @@ asciidoctor -r asciidoctor-diagram source/designPattern.adoc -o designPattern.ht
 
 echo "asciidoctor -r asciidoctor-diagram source/index.adoc -o index.html -a stylesheet=stylesheet.css"
 asciidoctor -r asciidoctor-diagram source/index.adoc -o index.html -a stylesheet=stylesheet.css
+#asciidoctor -r asciidoctor-diagram source/index.adoc -o index.html
 
 echo "asciidoctor -r asciidoctor-diagram source/asciidoc.adoc -o asciidoc.html -a stylesheet=stylesheet.css"
 asciidoctor -r asciidoctor-diagram source/asciidoc.adoc -o asciidoc.html -a stylesheet=stylesheet.css

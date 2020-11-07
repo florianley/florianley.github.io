@@ -20,14 +20,14 @@ Welcome to my documentation here you can find information different development 
 |===
 |Subject |Link
 
-a|development principles
+a|image::principes.png[align=center,float=left]
+principles of development
 
-image::principes.png[align=center]|<<designPattern.adoc#,DesignPattern>>
+|<<designPattern.adoc#,DesignPattern>>
 
-a|About
-
-image::furby.png[align=center]| <<asciidoc.adoc#,About this documentation>>
+a|image::furby.png[align=center,float=left]
+About| <<asciidoc.adoc#,About this documentation>>
 |===
 
-https://www.iconfinder.com/iconsets/kameleon-free-pack-rounded[Source pour les images]
+https://www.iconfinder.com/iconsets/kameleon-free-pack-rounded[Images sources]
 

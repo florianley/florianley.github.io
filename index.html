@@ -276,7 +276,7 @@ blockquote, blockquote p { line-height: 1.4; color: #666666; }
   .hide-for-print { display: none !important; }
   .show-for-print { display: inherit !important; } }
 /* Tables */
-table { background: white; margin-bottom: 1.33333em; border: solid 1px #dddddd; }
+table { background: white; margin: auto; border: solid 1px #dddddd;width: 100%; }
 table thead, table tfoot { background: whitesmoke; font-weight: bold; }
 table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td { padding: 0.53333em 0.66667em 0.66667em; font-size: 0.93333em; color: #222222; text-align: left; }
 table tr th, table tr td { padding: 0.6em 0.66667em; font-size: 0.8em; color: #222222; }
@@ -667,6 +667,27 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">toto</th>
+<th class="tableblock halign-left valign-top">Description</th>
+<th class="tableblock halign-right valign-top">Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-middle"><p class="tableblock">Asciidoctor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Awesome way to write documentation</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock">1.5.0</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
 </colgroup>
@@ -678,24 +699,24 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>development principles</p>
-</div>
-<div class="imageblock text-center">
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock left text-center">
 <div class="content">
 <img src="img/principes.png" alt="principes">
 </div>
+</div>
+<div class="paragraph">
+<p>development principles</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="designPattern.html">DesignPattern</a></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
-<p>About</p>
-</div>
-<div class="imageblock text-center">
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock left text-center">
 <div class="content">
 <img src="img/furby.png" alt="furby">
 </div>
+</div>
+<div class="paragraph">
+<p>About</p>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><a href="asciidoc.html">About this documentation</a></p></td>
 </tr>
@@ -707,7 +728,7 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-07 12:24:11 UTC
+Last updated 2020-11-07 13:16:22 UTC
 </div>
 </div>
 </body>
