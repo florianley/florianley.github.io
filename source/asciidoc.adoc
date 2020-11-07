@@ -21,9 +21,4 @@ image::asciidoctor-gist-demo.png[align=center]
 With Acsidoc you can easily create documentation linked to your development projects.
 Gitlab include automatic processors witch display  you documentation directly in your repository.
 
-image::soonpika.gif[pika]
-
-
-
 == Plant UML
-

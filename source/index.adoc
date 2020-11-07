@@ -8,7 +8,8 @@
 :toclevels: 3
 
 :toc!:
-:imagesoutdir: img/UML
+:imagesoutdir: ../img
+:imagesdir: img
 
 [[purpose]]
 .Purpose
@@ -16,16 +17,17 @@
 Welcome to my documentation here you can find information different development concepts.
 ****
 
-== <<designPattern.adoc#,DesignPattern>>
-== <<asciidoc.adoc#,About this documentation>>
-
-
 |===
 |Subject |Link
 
-|Column 1, row 1 |<<designPattern.adoc#,DesignPattern>>
+a|development principles
 
-|Column 1, row 2 | <<asciidoc.adoc#,About this documentation>>
+image::principes.png[align=center]|<<designPattern.adoc#,DesignPattern>>
+
+a|About
+
+image::furby.png[align=center]| <<asciidoc.adoc#,About this documentation>>
 |===
 
+https://www.iconfinder.com/iconsets/kameleon-free-pack-rounded[Source pour les images]
 
