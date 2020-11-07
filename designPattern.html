@@ -302,7 +302,7 @@ kbd kbd:last-child { margin-right: 0; }
 
 .menuseq, .menu { color: #1a1a1a; }
 
-#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 66.66667em; *zoom: 1; position: relative; padding-left: 1em; padding-right: 1em; }
+#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 75em; *zoom: 1; position: relative; padding-left: 1em; padding-right: 1em; }
 #header:before, #header:after, #content:before, #content:after, #footnotes:before, #footnotes:after, #footer:before, #footer:after { content: " "; display: table; }
 #header:after, #content:after, #footnotes:after, #footer:after { clear: both; }
 
@@ -637,7 +637,7 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 
 #content h1 > a.anchor, h2 > a.anchor, h3 > a.anchor, #toctitle > a.anchor, .sidebarblock > .content > .title > a.anchor, h4 > a.anchor, h5 > a.anchor, h6 > a.anchor { color: #333333; }
 
-#header, #content, #footnotes { max-width: 660px; padding-left: 0; padding-right: 0; }
+#header, #content, #footnotes {  padding-left: 0; padding-right: 0; }
 
 #content ul { list-style-type: none; }
 #content ul li { background: url('../images/github/li-chevron.png?1372292342') 0 0.4em no-repeat; padding-left: .7em; }
@@ -652,9 +652,23 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 
 </style>
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>Design Pattern</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_creation_models">1. Creation Models</a>
+<ul class="sectlevel2">
+<li><a href="#_factory">1.1. Factory</a>
+<ul class="sectlevel3">
+<li><a href="#_factory_with_an_abstract_way">1.1.1. Factory with an abstract way</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 <div id="content">
 <div id="preamble">
@@ -705,7 +719,7 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-07 12:27:44 UTC
+Last updated 2020-11-07 13:41:53 UTC
 </div>
 </div>
 </body>
