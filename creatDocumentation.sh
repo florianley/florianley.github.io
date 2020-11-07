@@ -7,16 +7,20 @@ echo "images cleanup file"
 rm -rf img/
 
 
-echo "asciidoctor -r asciidoctor-diagram source/designPattern.adoc -o designPattern.html -a stylesheet=stylesheet.css"
-asciidoctor -r asciidoctor-diagram source/designPattern.adoc -o designPattern.html -a stylesheet=stylesheet.css
 
-echo "asciidoctor -r asciidoctor-diagram source/index.adoc -o index.html -a stylesheet=stylesheet.css"
-asciidoctor -r asciidoctor-diagram source/index.adoc -o index.html -a stylesheet=stylesheet.css
-
-echo "asciidoctor -r asciidoctor-diagram source/asciidoc.adoc -o asciidoc.html -a stylesheet=stylesheet.css"
-asciidoctor -r asciidoctor-diagram source/asciidoc.adoc -o asciidoc.html -a stylesheet=stylesheet.css
+# shellcheck disable=SC2045
+for file in `ls source/*.adoc`
+do
+        printf "integration of : $file --> "
+        htmlfile="${file%.adoc}.html"
+        asciidoctor -r asciidoctor-diagram $file -o $htmlfile -a stylesheet=stylesheet.css
+        echo "ok"
+done
+mv source/*.html .
 
 echo "images integration in images file"
+pwd
+mkdir img
 cp source/img/* img/
 
 echo "html documentation ready to be deployed to the world"
