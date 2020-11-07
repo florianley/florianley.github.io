@@ -14,9 +14,10 @@
 [[purpose]]
 .Purpose
 ****
-Welcome to my documentation here you can find information different development concepts.
+Welcome to my documentation. Here you can find information about different development concepts.
 ****
 
+[.center, width="50%"]
 |===
 |Subject |Link
 
