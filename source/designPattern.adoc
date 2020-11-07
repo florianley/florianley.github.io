@@ -23,7 +23,7 @@ Factory method is useful when :
 * There is a desire to centralize the creation of objects
 
 ==== Factory with an abstract way
-The main factory is abstract. A Factory have to be indirectly linked to an abstract object. The link is made through Factories legacies and object's legacies. In the following case, every Wolkswagenfactories (WolksVagenGolfFactory and WolksVagenPassatFactory)  instenciate the same method from Wolkswagenfactories but it producce a car of their own type
+The main factory is abstract. A Factory have to be indirectly linked to an abstract object. The link is made through Factories legacies and object's legacies. In the following case, every Wolkswagenfactories (WolksVagenGolfFactory and WolksVagenPassatFactory)  instenciate the same method from Wolkswagenfactories but it produce a car of their own type
 
 plantuml::plantuml/designPattern/Factory.puml[format=svg, alt="Class diagram"]
 
