@@ -7,7 +7,8 @@
 :toc: left
 :toclevels: 3
 :imagesdir: img
-
+:source-highlighter: coderay
+:coderay-css: style
 
 *2020-10-20*
 
@@ -26,5 +27,38 @@ Factory method is useful when :
 The main factory is abstract. A Factory have to be indirectly linked to an abstract object. The link is made through Factories legacies and object's legacies. In the following case, every Wolkswagenfactories (WolksVagenGolfFactory and WolksVagenPassatFactory)  instenciate the same method from Wolkswagenfactories but it produce a car of their own type
 
 plantuml::plantuml/designPattern/Factory.puml[format=svg, alt="Class diagram"]
+
+With this organization, the client implementation could be achieved by the following way :
+
+
+
+
+
+
+[source,java]
+----
+public class Client {
+    public static void main (String[] args){
+        WolksVagenCar myCar ;
+
+        System.out.println("use of first Factory");
+        myCar = new Golf();
+        myCar.methodeA();
+
+        System.out.println("use of second Factory");
+        myCar = new Passat();
+        myCar.methodeA();
+    }
+}
+
+----
+
+With the following result :
+
+[source,bash]
+use of first Factory
+I'm a Golf
+use of second Factory
+I'm a Passat
 
 

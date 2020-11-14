@@ -712,6 +712,37 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 <img src="img/Factory.svg" alt="Class diagram" width="658" height="455">
 </div>
 </div>
+<div class="paragraph">
+<p>With this organization, the client implementation could be achieved by the following way :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span style="color:#088;font-weight:bold">public</span> <span style="color:#339;font-weight:bold">class</span> <span style="color:#B06;font-weight:bold">Client</span> {
+    <span style="color:#088;font-weight:bold">public</span> <span style="color:#088;font-weight:bold">static</span> <span style="color:#339;font-weight:bold">void</span> main (<span style="color:#0a8;font-weight:bold">String</span><span style="color:#339;font-weight:bold">[]</span> args){
+        WolksVagenCar myCar ;
+
+        <span style="color:#0a8;font-weight:bold">System</span>.out.println(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">use of first Factory</span><span style="color:#710">&quot;</span></span>);
+        myCar = <span style="color:#080;font-weight:bold">new</span> Golf();
+        myCar.methodeA();
+
+        <span style="color:#0a8;font-weight:bold">System</span>.out.println(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">use of second Factory</span><span style="color:#710">&quot;</span></span>);
+        myCar = <span style="color:#080;font-weight:bold">new</span> Passat();
+        myCar.methodeA();
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>With the following result :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="bash">use of first Factory
+I'm a Golf
+use of second Factory
+I'm a Passat</code></pre>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -719,7 +750,7 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-07 19:56:33 UTC
+Last updated 2020-11-14 14:50:59 UTC
 </div>
 </div>
 </body>
