@@ -121,7 +121,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 html, body { font-size: 15px; }
 
-body { background: white; color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; }
+body { background: white; color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: auto; margin: 5%;}
 
 a:hover { cursor: pointer; }
 

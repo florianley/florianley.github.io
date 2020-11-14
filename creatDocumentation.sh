@@ -1,6 +1,10 @@
 #!/bin/bash
 green=`tput setaf 2`
 reset=`tput sgr0`
+
+sudo gem install coderay
+sudo gem install pygments.rb
+
 echo "html data cleaning"
 rm *.html
 
