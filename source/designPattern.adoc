@@ -12,7 +12,7 @@
 
 *2020-10-20*
 
-Design Pattern in oriented object development allow programmers to use development techniques in order obtain lighter sources and easiest to enrich.The purpose of this chapter is to present  most famous design patterns known. All those  chapters are illustrated with examples through my github project available https://github.com/florianley/designPaterns[here]
+Design Pattern in oriented object development allow programmers to use development techniques in order to obtain lighter sources and easiest to enrich.The purpose of this chapter is to present  most famous design patterns known. All those  chapters are illustrated with examples through my github project available https://github.com/florianley/designPaterns[here]
 
 == Creation Models
 === Factory
@@ -50,7 +50,6 @@ public class Client {
         myCar.methodeA();
     }
 }
-
 ----
 
 With the following result :
@@ -61,4 +60,37 @@ I'm a Golf
 use of second Factory
 I'm a Passat
 
+==== Factory with parameter way
 
+The factory contain a method in charge to build an object based on the parameter asked. In the following example, the petFactory contains getPet'method in charge to create a cat or a dog depending on the parameter sent.
+
+plantuml::plantuml/designPattern/Factory2.puml[format=svg, alt="Class diagram",align=center]
+
+In this case Client class have to look like this :
+
+[source,java]
+----
+public class Client {
+    public static void main (String[] args){
+        PetFactory petFactory = new PetFactory();
+
+        Pet pet;
+
+        System.out.println("first pet creation :");
+        pet = petFactory.getPet(PetFactory.DOG);
+        pet.sound();
+
+        System.out.println("second pet creation :");
+        pet = petFactory.getPet(PetFactory.CAT);
+        pet.sound();
+
+    }
+}
+----
+
+With the following result :
+[source,bash]
+first pet creation :
+the dog barks
+second pet creation :
+the cat meows

@@ -663,6 +663,7 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 <li><a href="#_factory">1.1. Factory</a>
 <ul class="sectlevel3">
 <li><a href="#_factory_with_an_abstract_way">1.1.1. Factory with an abstract way</a></li>
+<li><a href="#_factory_with_parameter_way">1.1.2. Factory with parameter way</a></li>
 </ul>
 </li>
 </ul>
@@ -677,7 +678,7 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 <p><strong>2020-10-20</strong></p>
 </div>
 <div class="paragraph">
-<p>Design Pattern in oriented object development allow programmers to use development techniques in order obtain lighter sources and easiest to enrich.The purpose of this chapter is to present  most famous design patterns known. All those  chapters are illustrated with examples through my github project available <a href="https://github.com/florianley/designPaterns">here</a></p>
+<p>Design Pattern in oriented object development allow programmers to use development techniques in order to obtain lighter sources and easiest to enrich.The purpose of this chapter is to present  most famous design patterns known. All those  chapters are illustrated with examples through my github project available <a href="https://github.com/florianley/designPaterns">here</a></p>
 </div>
 </div>
 </div>
@@ -744,13 +745,58 @@ I'm a Passat</code></pre>
 </div>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_factory_with_parameter_way">1.1.2. Factory with parameter way</h4>
+<div class="paragraph">
+<p>The factory contain a method in charge to build an object based on the parameter asked. In the following example, the petFactory contains getPet&#8217;method in charge to create a cat or a dog depending on the parameter sent.</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="img/Factory2.svg" alt="Class diagram" width="217" height="321">
+</div>
+</div>
+<div class="paragraph">
+<p>In this case Client class have to look like this :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span style="color:#088;font-weight:bold">public</span> <span style="color:#339;font-weight:bold">class</span> <span style="color:#B06;font-weight:bold">Client</span> {
+    <span style="color:#088;font-weight:bold">public</span> <span style="color:#088;font-weight:bold">static</span> <span style="color:#339;font-weight:bold">void</span> main (<span style="color:#0a8;font-weight:bold">String</span><span style="color:#339;font-weight:bold">[]</span> args){
+        PetFactory petFactory = <span style="color:#080;font-weight:bold">new</span> PetFactory();
+
+        Pet pet;
+
+        <span style="color:#0a8;font-weight:bold">System</span>.out.println(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">first pet creation :</span><span style="color:#710">&quot;</span></span>);
+        pet = petFactory.getPet(PetFactory.DOG);
+        pet.sound();
+
+        <span style="color:#0a8;font-weight:bold">System</span>.out.println(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">second pet creation :</span><span style="color:#710">&quot;</span></span>);
+        pet = petFactory.getPet(PetFactory.CAT);
+        pet.sound();
+
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>With the following result :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="bash">first pet creation :
+the dog barks
+second pet creation :
+the cat meows</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-11-14 14:50:59 UTC
+Last updated 2020-11-14 16:46:21 UTC
 </div>
 </div>
 </body>

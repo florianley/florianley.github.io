@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' contentScriptType='application/ecmascript' contentStyleType='text/css' height='321px' preserveAspectRatio='none' style='width:217px;height:321px;' version='1.1' viewBox='0 0 217 321' width='217px' zoomAndPan='magnify'>
+  <defs>
+    <filter height='300%' id='fx8rhxe5heqs7' width='300%' x='-1' y='-1'>
+      <feGaussianBlur result='blurOut' stdDeviation='2.0'/>
+      <feColorMatrix in='blurOut' result='blurOut2' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0'/>
+      <feOffset dx='4.0' dy='4.0' in='blurOut2' result='blurOut3'/>
+      <feBlend in='SourceGraphic' in2='blurOut3' mode='normal'/>
+    </filter>
+  </defs>
+  <g>
+    <!--MD5=[0cf633b67aa14d00bf817b3a65a3f577]
+class Petfactory-->
+    <rect fill='#FFFFFF' filter='url(#fx8rhxe5heqs7)' height='60.8047' id='Petfactory' style='stroke: #000000; stroke-width: 1.5;' width='96' x='6' y='129'/>
+    <ellipse cx='21' cy='145' fill='#ADD1B2' rx='11' ry='11' style='stroke: #000000; stroke-width: 1.0;'/>
+    <path d='M23.9688,150.6406 Q23.3906,150.9375 22.75,151.0859 Q22.1094,151.2344 21.4063,151.2344 Q18.9063,151.2344 17.5859,149.5859 Q16.2656,147.9375 16.2656,144.8125 Q16.2656,141.6875 17.5859,140.0313 Q18.9063,138.375 21.4063,138.375 Q22.1094,138.375 22.7578,138.5313 Q23.4063,138.6875 23.9688,138.9844 L23.9688,141.7031 Q23.3438,141.125 22.75,140.8516 Q22.1563,140.5781 21.5313,140.5781 Q20.1875,140.5781 19.5,141.6484 Q18.8125,142.7188 18.8125,144.8125 Q18.8125,146.9063 19.5,147.9766 Q20.1875,149.0469 21.5313,149.0469 Q22.1563,149.0469 22.75,148.7734 Q23.3438,148.5 23.9688,147.9219 L23.9688,150.6406 Z '/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' lengthAdjust='spacingAndGlyphs' textLength='64' x='35' y='149.1543'>
+      Petfactory
+    </text>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='7' x2='101' y1='161' y2='161'/>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='7' x2='101' y1='169' y2='169'/>
+    <ellipse cx='17' cy='180' fill='#84BE84' rx='3' ry='3' style='stroke: #038048; stroke-width: 1.0;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='11' lengthAdjust='spacingAndGlyphs' textLength='70' x='26' y='183.2104'>
+      getPet(): Pet
+    </text>
+    <!--MD5=[9cfa872a99fa8e70a8c023fe905238fd]
+class Pet-->
+    <rect fill='#FFFFFF' filter='url(#fx8rhxe5heqs7)' height='60.8047' id='Pet' style='stroke: #000000; stroke-width: 1.5;' width='69' x='137.5' y='129'/>
+    <ellipse cx='159.7' cy='145' fill='#ADD1B2' rx='11' ry='11' style='stroke: #000000; stroke-width: 1.0;'/>
+    <path d='M162.6688,150.6406 Q162.0906,150.9375 161.45,151.0859 Q160.8094,151.2344 160.1063,151.2344 Q157.6063,151.2344 156.2859,149.5859 Q154.9656,147.9375 154.9656,144.8125 Q154.9656,141.6875 156.2859,140.0313 Q157.6063,138.375 160.1063,138.375 Q160.8094,138.375 161.4578,138.5313 Q162.1063,138.6875 162.6688,138.9844 L162.6688,141.7031 Q162.0438,141.125 161.45,140.8516 Q160.8563,140.5781 160.2313,140.5781 Q158.8875,140.5781 158.2,141.6484 Q157.5125,142.7188 157.5125,144.8125 Q157.5125,146.9063 158.2,147.9766 Q158.8875,149.0469 160.2313,149.0469 Q160.8563,149.0469 161.45,148.7734 Q162.0438,148.5 162.6688,147.9219 L162.6688,150.6406 Z '/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' lengthAdjust='spacingAndGlyphs' textLength='21' x='175.3' y='149.1543'>
+      Pet
+    </text>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='138.5' x2='205.5' y1='161' y2='161'/>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='138.5' x2='205.5' y1='169' y2='169'/>
+    <ellipse cx='148.5' cy='180' fill='#84BE84' rx='3' ry='3' style='stroke: #038048; stroke-width: 1.0;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='11' lengthAdjust='spacingAndGlyphs' textLength='43' x='157.5' y='183.2104'>
+      sound()
+    </text>
+    <!--MD5=[8d10b9619f233caeee54837354dd5717]
+class Cat-->
+    <rect fill='#FFFFFF' filter='url(#fx8rhxe5heqs7)' height='60.8047' id='Cat' style='stroke: #000000; stroke-width: 1.5;' width='69' x='26.5' y='250'/>
+    <ellipse cx='48.7' cy='266' fill='#ADD1B2' rx='11' ry='11' style='stroke: #000000; stroke-width: 1.0;'/>
+    <path d='M51.6688,271.6406 Q51.0906,271.9375 50.45,272.0859 Q49.8094,272.2344 49.1063,272.2344 Q46.6063,272.2344 45.2859,270.5859 Q43.9656,268.9375 43.9656,265.8125 Q43.9656,262.6875 45.2859,261.0313 Q46.6063,259.375 49.1063,259.375 Q49.8094,259.375 50.4578,259.5313 Q51.1063,259.6875 51.6688,259.9844 L51.6688,262.7031 Q51.0438,262.125 50.45,261.8516 Q49.8563,261.5781 49.2313,261.5781 Q47.8875,261.5781 47.2,262.6484 Q46.5125,263.7188 46.5125,265.8125 Q46.5125,267.9063 47.2,268.9766 Q47.8875,270.0469 49.2313,270.0469 Q49.8563,270.0469 50.45,269.7734 Q51.0438,269.5 51.6688,268.9219 L51.6688,271.6406 Z '/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' lengthAdjust='spacingAndGlyphs' textLength='21' x='64.3' y='270.1543'>
+      Cat
+    </text>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='27.5' x2='94.5' y1='282' y2='282'/>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='27.5' x2='94.5' y1='290' y2='290'/>
+    <ellipse cx='37.5' cy='301' fill='#84BE84' rx='3' ry='3' style='stroke: #038048; stroke-width: 1.0;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='11' lengthAdjust='spacingAndGlyphs' textLength='43' x='46.5' y='304.2104'>
+      sound()
+    </text>
+    <!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client-->
+    <rect fill='#FFFFFF' filter='url(#fx8rhxe5heqs7)' height='60.8047' id='Client' style='stroke: #000000; stroke-width: 1.5;' width='108' x='59' y='8'/>
+    <ellipse cx='92.45' cy='24' fill='#ADD1B2' rx='11' ry='11' style='stroke: #000000; stroke-width: 1.0;'/>
+    <path d='M95.4188,29.6406 Q94.8406,29.9375 94.2,30.0859 Q93.5594,30.2344 92.8563,30.2344 Q90.3563,30.2344 89.0359,28.5859 Q87.7156,26.9375 87.7156,23.8125 Q87.7156,20.6875 89.0359,19.0313 Q90.3563,17.375 92.8563,17.375 Q93.5594,17.375 94.2078,17.5313 Q94.8563,17.6875 95.4188,17.9844 L95.4188,20.7031 Q94.7938,20.125 94.2,19.8516 Q93.6063,19.5781 92.9813,19.5781 Q91.6375,19.5781 90.95,20.6484 Q90.2625,21.7188 90.2625,23.8125 Q90.2625,25.9063 90.95,26.9766 Q91.6375,28.0469 92.9813,28.0469 Q93.6063,28.0469 94.2,27.7734 Q94.7938,27.5 95.4188,26.9219 L95.4188,29.6406 Z '/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' lengthAdjust='spacingAndGlyphs' textLength='35' x='110.55' y='28.1543'>
+      Client
+    </text>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='60' x2='166' y1='40' y2='40'/>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='60' x2='166' y1='48' y2='48'/>
+    <ellipse cx='70' cy='59' fill='#84BE84' rx='3' ry='3' style='stroke: #038048; stroke-width: 1.0;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='11' lengthAdjust='spacingAndGlyphs' textLength='82' x='79' y='62.2104'>
+      main (String[])
+    </text>
+    <!--MD5=[454ed48f055567edc734f170f61b4daf]
+class Dog-->
+    <rect fill='#FFFFFF' filter='url(#fx8rhxe5heqs7)' height='60.8047' id='Dog' style='stroke: #000000; stroke-width: 1.5;' width='69' x='133.5' y='250'/>
+    <ellipse cx='153.9' cy='266' fill='#ADD1B2' rx='11' ry='11' style='stroke: #000000; stroke-width: 1.0;'/>
+    <path d='M156.8688,271.6406 Q156.2906,271.9375 155.65,272.0859 Q155.0094,272.2344 154.3063,272.2344 Q151.8063,272.2344 150.4859,270.5859 Q149.1656,268.9375 149.1656,265.8125 Q149.1656,262.6875 150.4859,261.0313 Q151.8063,259.375 154.3063,259.375 Q155.0094,259.375 155.6578,259.5313 Q156.3063,259.6875 156.8688,259.9844 L156.8688,262.7031 Q156.2438,262.125 155.65,261.8516 Q155.0563,261.5781 154.4313,261.5781 Q153.0875,261.5781 152.4,262.6484 Q151.7125,263.7188 151.7125,265.8125 Q151.7125,267.9063 152.4,268.9766 Q153.0875,270.0469 154.4313,270.0469 Q155.0563,270.0469 155.65,269.7734 Q156.2438,269.5 156.8688,268.9219 L156.8688,271.6406 Z '/>
+    <text fill='#000000' font-family='sans-serif' font-size='12' lengthAdjust='spacingAndGlyphs' textLength='25' x='169.1' y='270.1543'>
+      Dog
+    </text>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='134.5' x2='201.5' y1='282' y2='282'/>
+    <line style='stroke: #000000; stroke-width: 1.5;' x1='134.5' x2='201.5' y1='290' y2='290'/>
+    <ellipse cx='144.5' cy='301' fill='#84BE84' rx='3' ry='3' style='stroke: #038048; stroke-width: 1.0;'/>
+    <text fill='#000000' font-family='sans-serif' font-size='11' lengthAdjust='spacingAndGlyphs' textLength='43' x='153.5' y='304.2104'>
+      sound()
+    </text>
+    <!--MD5=[d273d6504a39c2eef11ce5121d9fe9e8]
+link Client to Pet-->
+    <path d='M127.8882,69.0334 C136.0635,85.7998 146.2419,106.674 154.7608,124.1451 ' fill='none' id='Client-&gt;Pet' style='stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;'/>
+    <polygon fill='#000000' points='157.1166,128.9764,156.7671,119.1337,154.925,124.4823,149.5765,122.6402,157.1166,128.9764' style='stroke: #000000; stroke-width: 1.0;'/>
+    <!--MD5=[cf2cc3d59335715964d72fcfd5768659]
+link Client to Petfactory-->
+    <path d='M98.1118,69.0334 C89.9365,85.7998 79.7581,106.674 71.2392,124.1451 ' fill='none' id='Client-&gt;Petfactory' style='stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;'/>
+    <polygon fill='#000000' points='68.8834,128.9764,76.4235,122.6402,71.075,124.4823,69.2329,119.1337,68.8834,128.9764' style='stroke: #000000; stroke-width: 1.0;'/>
+    <!--MD5=[d8c4024762fd7b08a07febe11311bafa]
+reverse link Pet to Dog-->
+    <path d='M170.3209,210.2927 C169.8749,223.7857 169.4069,237.9401 169.009,249.9764 ' fill='none' id='Pet&lt;-Dog' style='stroke: #000000; stroke-width: 1.0;'/>
+    <polygon fill='none' points='163.3336,209.7912,170.9906,190.0334,177.3259,210.2538,163.3336,209.7912' style='stroke: #000000; stroke-width: 1.0;'/>
+    <!--MD5=[be012ed37fddef7e7a0f00571bb17277]
+reverse link Pet to Cat-->
+    <path d='M130.2308,205.0322 C116.4612,220.0423 101.4885,236.3639 89.001,249.9764 ' fill='none' id='Pet&lt;-Cat' style='stroke: #000000; stroke-width: 1.0;'/>
+    <polygon fill='none' points='125.3117,200.0394,143.99,190.0334,135.6283,209.5035,125.3117,200.0394' style='stroke: #000000; stroke-width: 1.0;'/>
+    <!--MD5=[db77cb6cd6aeb71c729e92b68d84b9c8]
+link Petfactory to Dog-->
+    <path d='M82.767,190.0334 C98.8334,207.0864 118.9036,228.3889 135.5317,246.038 ' fill='none' id='Petfactory-&gt;Dog' style='stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;'/>
+    <polygon fill='#000000' points='139.2422,249.9764,135.9818,240.6829,135.8134,246.3372,130.1591,246.1689,139.2422,249.9764' style='stroke: #000000; stroke-width: 1.0;'/>
+    <!--MD5=[9a8fb26a920148747f66bb770d455ecf]
+link Petfactory to Cat-->
+    <path d='M55.7664,190.0334 C56.7281,206.6565 57.9233,227.3175 58.9287,244.6964 ' fill='none' id='Petfactory-&gt;Cat' style='stroke: #000000; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;'/>
+    <polygon fill='#000000' points='59.2342,249.9764,62.7076,240.7603,58.9453,244.9848,54.7209,241.2225,59.2342,249.9764' style='stroke: #000000; stroke-width: 1.0;'/>
+    <!--MD5=[a281f3babc216e2a78c071c89fbbfc0c]
+@startuml
+
+skinparam participant {
+    BorderColor Black
+    BorderThickness 1
+    FontName Helvetica
+    FontSize 13
+    BackgroundColor 0066A1
+    HeaderBackgroundColor 0066A1
+    AttributeFontColor black
+    FontColor White
+    FontStyle bold
+}
+
+
+skinparam sequence {
+    ArrowColor Black
+    GroupBackgroundColor 0066A1
+    GroupHeaderFontColor White
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+    FontColor red
+}
+
+skinparam class  {
+    ArrowColor Black
+    BackgroundColor transparent
+    GroupHeaderFontColor White
+    BorderColor  Black
+    LifeLineBackgroundColor White
+    FontColor Black
+}
+
+skinparam note {
+    BackgroundColor  transparent
+    FontColor 3284B3
+    BorderColor black
+}
+
+
+class Petfactory{
+{method} + getPet(): Pet
+}
+class Pet{
+{method} + sound()
+}
+class Cat{
+{method} + sound()
+}
+class Client {
+{method}+ main (String[])
+}
+class Dog{
+{method} + sound()
+}
+
+Client ..> Pet
+Client  ..> Petfactory
+Pet <|- - Dog
+Pet <|- - Cat
+Petfactory ..> Dog
+Petfactory ..> Cat
+
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 UTC 2020)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_232-8u232-b09-0ubuntu1~18.04.1-b09
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+  </g>
+</svg>
