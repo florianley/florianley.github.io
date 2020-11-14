@@ -293,7 +293,7 @@ kbd kbd:last-child { margin-right: 0; }
 
 .menuseq, .menu { color: #1a1a1a; }
 
-#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 75em; *zoom: 1; position: relative; padding-left: 1em; padding-right: 1em; }
+#header, #content, #footnotes, #footer { width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; *zoom: 1; position: relative; padding-left: 1em; padding-right: 1em; }
 #header:before, #header:after, #content:before, #content:after, #footnotes:before, #footnotes:after, #footer:before, #footer:after { content: " "; display: table; }
 #header:after, #content:after, #footnotes:after, #footer:after { clear: both; }
 
