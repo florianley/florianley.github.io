@@ -19,7 +19,7 @@ This blog is fully developed throughout https://asciidoctor.org/docs/what-is-asc
 image::asciidoctor-gist-demo.png[align=center]
 
 With Acsidoc you can easily create documentation linked to your development projects.
-Gitlab include automatic processors witch display  your documentation directly in your repository. For this website, HTML documentation are processed localy with https://asciidoctor.org/[Asciidoctor] and published thanks to https://pages.github.com/[GitHubPages]
+Gitlab include automatic processors witch display  your documentation directly in your repository. For this website, HTML documentation are processed locally with https://asciidoctor.org/[Asciidoctor] and published thanks to https://pages.github.com/[GitHubPages]
 
 == Plant UML
-Each diagram you will find in this documantation is devleoped and processed trought Plant UML
+Each diagram you will find in this documentation is developed and processed trough Plant UML

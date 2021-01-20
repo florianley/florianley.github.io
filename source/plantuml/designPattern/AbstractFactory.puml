@@ -1,0 +1,97 @@
+@startuml
+skinparam participant {
+    BorderColor Black
+    BorderThickness 1
+    FontName Helvetica
+    FontSize 13
+    BackgroundColor 0066A1
+    HeaderBackgroundColor 0066A1
+    AttributeFontColor black
+    FontColor White
+    FontStyle bold
+}
+
+
+skinparam sequence {
+    ArrowColor Black
+    GroupBackgroundColor 0066A1
+    GroupHeaderFontColor White
+    LifeLineBorderColor Black
+    LifeLineBackgroundColor White
+    FontColor red
+}
+
+skinparam class  {
+    ArrowColor Black
+    BackgroundColor transparent
+    GroupHeaderFontColor White
+    BorderColor  Black
+    LifeLineBackgroundColor White
+    FontColor Black
+}
+
+skinparam note {
+    BackgroundColor  transparent
+    FontColor 3284B3
+    BorderColor black
+}
+
+
+
+interface ComputerAbstractFactory{
+{method} + createComputer(): Computer
+}
+
+abstract class Computer{
++ abstract String getRAM()
++ abstract String getHDD()
++ abstract String getCPU()
+
+}
+
+class PC{
+- String ram
+- String hdd
+- String cpu
++ getRam()
++ getHDD()
++ getCPU()
+}
+
+class ComputerFactory{
++ static Computer getComputer()
+}
+
+class Serveur{
+- String ram
+- String hdd
+- String cpu
++ getRam()
++ getHDD()
++ getCPU()
+}
+
+class ServeurFactory{
+- String ram
+- String hdd
+- String cpu
++ Computer createComputer()
+}
+
+class PCFactory{
+- String ram
+- String hdd
+- String cpu
++ Computer createComputer()
+}
+
+class Client{
+
+}
+
+Computer <|-- PC
+Computer <|-- Serveur
+Client ..> ComputerFactory
+ComputerAbstractFactory <|.. PCFactory
+ComputerAbstractFactory <|.. ServeurFactory
+@enduml

@@ -1,7 +1,6 @@
 //
 // file: designPattern.adoc
 //
-
 = Design Pattern
 :sectnums:
 :toc: left
@@ -23,7 +22,7 @@ Factory method is useful when :
 * The client can't define an object type before the execution
 * There is a desire to centralize the creation of objects
 
-==== Factory with an abstract way
+==== Factory by legacy
 The main factory is abstract. A Factory has to be indirectly linked to an abstract object. The link is made through Factories legacies and object's legacies. In the following case, every Wolkswagenfactories (WolksVagenGolfFactory and WolksVagenPassatFactory)  instenciate the same method from Wolkswagenfactories but it produce a car of their own type
 
 plantuml::plantuml/designPattern/Factory.puml[format=svg, alt="Class diagram",align=center]
@@ -88,4 +87,8 @@ first pet creation :
 the dog barks
 second pet creation :
 the cat meows
+
+=== Abstract Factory
+
+plantuml::plantuml/designPattern/AbstractFactory.puml[format=svg, alt="Class diagram",align=center]
 

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="generator" content="Asciidoctor 2.0.12">
 <title>Design Pattern</title>
 <style>
 @import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.0/css/font-awesome.css);
@@ -662,10 +662,11 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 <ul class="sectlevel2">
 <li><a href="#_factory">1.1. Factory</a>
 <ul class="sectlevel3">
-<li><a href="#_factory_with_an_abstract_way">1.1.1. Factory with an abstract way</a></li>
+<li><a href="#_factory_by_legacy">1.1.1. Factory by legacy</a></li>
 <li><a href="#_factory_with_parameter_way">1.1.2. Factory with parameter way</a></li>
 </ul>
 </li>
+<li><a href="#_abstract_factory">1.2. Abstract Factory</a></li>
 </ul>
 </li>
 </ul>
@@ -704,13 +705,13 @@ h2 { color: #325D72; border-bottom: 1px solid #dddddd; }
 </ul>
 </div>
 <div class="sect3">
-<h4 id="_factory_with_an_abstract_way">1.1.1. Factory with an abstract way</h4>
+<h4 id="_factory_by_legacy">1.1.1. Factory by legacy</h4>
 <div class="paragraph">
 <p>The main factory is abstract. A Factory has to be indirectly linked to an abstract object. The link is made through Factories legacies and object&#8217;s legacies. In the following case, every Wolkswagenfactories (WolksVagenGolfFactory and WolksVagenPassatFactory)  instenciate the same method from Wolkswagenfactories but it produce a car of their own type</p>
 </div>
 <div class="imageblock text-center">
 <div class="content">
-<img src="img/Factory.svg" alt="Class diagram" width="658" height="455">
+<img src="img/Factory.svg" alt="Class diagram" width="628" height="455">
 </div>
 </div>
 <div class="paragraph">
@@ -752,7 +753,7 @@ I'm a Passat</code></pre>
 </div>
 <div class="imageblock text-center">
 <div class="content">
-<img src="img/Factory2.svg" alt="Class diagram" width="217" height="321">
+<img src="img/Factory2.svg" alt="Class diagram" width="209" height="321">
 </div>
 </div>
 <div class="paragraph">
@@ -791,12 +792,20 @@ the cat meows</code></pre>
 </div>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_abstract_factory">1.2. Abstract Factory</h3>
+<div class="imageblock text-center">
+<div class="content">
+<img src="img/AbstractFactory.svg" alt="Class diagram" width="894" height="293">
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-01-03 15:34:56 UTC
+Last updated 2021-01-20 22:30:19 +0100
 </div>
 </div>
 </body>
