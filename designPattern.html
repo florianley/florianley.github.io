@@ -794,9 +794,38 @@ the cat meows</code></pre>
 </div>
 <div class="sect2">
 <h3 id="_abstract_factory">1.2. Abstract Factory</h3>
+<div class="paragraph">
+<p>Abstract Factory has the same goal as the classic Factory Pattern in the difference that in this architecture, it is possible to instantiate objects from the same family without having to know the classes to instantiate.</p>
+</div>
 <div class="imageblock text-center">
 <div class="content">
-<img src="img/AbstractFactory.svg" alt="Class diagram" width="894" height="293">
+<img src="img/AbstractFactory.svg" alt="Class diagram" width="623" height="535">
+</div>
+</div>
+<div class="paragraph">
+<p>In this case, Client class have to look like this :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="java"><span style="color:#080;font-weight:bold">package</span> <span style="color:#707;font-weight:bold">com.designPatern.abstractFactory2</span>;
+
+<span style="color:#088;font-weight:bold">public</span> <span style="color:#339;font-weight:bold">class</span> <span style="color:#B06;font-weight:bold">Client</span> {
+    <span style="color:#088;font-weight:bold">public</span> <span style="color:#088;font-weight:bold">static</span> <span style="color:#339;font-weight:bold">void</span> main(<span style="color:#0a8;font-weight:bold">String</span><span style="color:#339;font-weight:bold">[]</span> args) {
+        Computer pc = ComputerFactory.getComputer(<span style="color:#080;font-weight:bold">new</span> PCFactory(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">2 GB</span><span style="color:#710">&quot;</span></span>,<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">500 GB</span><span style="color:#710">&quot;</span></span>,<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">2.4 GHz</span><span style="color:#710">&quot;</span></span>));
+        Computer server = ComputerFactory.getComputer(<span style="color:#080;font-weight:bold">new</span> ServerFactory(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">16 GB</span><span style="color:#710">&quot;</span></span>,<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">1 TB</span><span style="color:#710">&quot;</span></span>,<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">2.9 GHz</span><span style="color:#710">&quot;</span></span>));
+        <span style="color:#0a8;font-weight:bold">System</span>.out.println(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">AbstractFactory PC Config::</span><span style="color:#710">&quot;</span></span>+pc);
+        <span style="color:#0a8;font-weight:bold">System</span>.out.println(<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">AbstractFactory Server Config::</span><span style="color:#710">&quot;</span></span>+server);
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>With the following result :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="CodeRay highlight"><code data-lang="bash">AbstractFactory PC Config::RAM= 2 GB, HDD=500 GB, CPU=2.4 GHz
+AbstractFactory Server Config::RAM= 16 GB, HDD=1 TB, CPU=2.9 GHz</code></pre>
 </div>
 </div>
 </div>
@@ -805,7 +834,7 @@ the cat meows</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-01-20 22:30:19 +0100
+Last updated 2021-01-25 19:24:34 +0100
 </div>
 </div>
 </body>

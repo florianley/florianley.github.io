@@ -62,7 +62,7 @@ class ComputerFactory{
 + static Computer getComputer()
 }
 
-class Serveur{
+class Server{
 - String ram
 - String hdd
 - String cpu
@@ -71,7 +71,7 @@ class Serveur{
 + getCPU()
 }
 
-class ServeurFactory{
+class ServerFactory{
 - String ram
 - String hdd
 - String cpu
@@ -90,8 +90,14 @@ class Client{
 }
 
 Computer <|-- PC
-Computer <|-- Serveur
-Client ..> ComputerFactory
+Computer <|-- Server
+Client --> ComputerFactory
 ComputerAbstractFactory <|.. PCFactory
-ComputerAbstractFactory <|.. ServeurFactory
+ComputerAbstractFactory <|.. ServerFactory
+Client --> ComputerAbstractFactory
+ServerFactory --> Server
+PCFactory --> PC
+ComputerFactory --> Computer
+
+
 @enduml
