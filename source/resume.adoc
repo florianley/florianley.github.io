@@ -1,7 +1,7 @@
 //
-// file: asciidoc.adoc
+// file: resume.adoc
 //
-= Resume
+= My resume
 :sectnums:
 :toc: left
 :toclevels: 3
