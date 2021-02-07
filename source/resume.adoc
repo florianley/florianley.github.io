@@ -1,0 +1,79 @@
+//
+// file: asciidoc.adoc
+//
+= Resume
+:sectnums:
+:toc: left
+:toclevels: 3
+:imagesoutdir: ../img
+:imagesdir: img
+
+:toc!:
+
+== About me
+
+Developer then project manager for more than 4 years; I would like to join the Ubisoft teams. Attracted by the human-centered mindset and methodologies practiced, presented in the various offers published by Ubisoft.
+My last assignments have enabled me to develop and enrich my skills in development and teamwork, but also in task planning between development teams and the various clients with whom I work on a daily basis.
+
+
+== Experience
+
+=== Worldline Ingenico 2016 – Today
+
+==== Projects manager 2018-2021
+
+===== Mobile Application development for Lazard Frères Banque 2021
+
+Project management for the development of the back-end of the mobile application for the bank “Lazard Frères”.
+
+My missions -> Estimation of loads, design of the physical architecture of the project according to the volume of use of the application estimated by the bank during the pre-sales phase; drafting of specifications under confluence; splitting tasks into Jira stories; Animation of steering committees with the bank.
+
+===== European standards "PSD2" 2020
+
+Project management in a team of 20 people. Follow-up and support with European banking organizations for the deployment of a compliance tool following the new rules imposed by the European Union PSD2 (Payment Services Directives 2) in order to secure online payments.
+
+My missions -> Monitoring of the integration, and then putting the services into production developed in *Java SpringBoot* via continuous integration tools such as *gitlab-ci*; Technical support to European banks through the establishment of regular monitoring points with presentations of tools, tutorials and answers to questions; Drafting of specifications and integration through the *confluence* tool. Extraction of *Swagger* type information for insertion on a Drupal interface, *Dockerization* then put online; Operation of services directly thanks to logs from machines or indicators through Kibana; Improvement of the various methodological processes characterized by the implementation of *Jira* performance indicators or via Agile ceremonies (retrospectives ...); The project having a European scope, all the exchanges and all the documentation are carried out in English.
+
+===== New Paris region ticketing solution 2019 -2020
+
+Project management for the implementation of an invoicing system for the Paris transport ticketing modernization project for 2024
+
+My missions -> Presentation of the project and its functional characteristics following the invitation to tender won by Worldline in front of the SNCF and public transport managers of the city of Paris. Calculation and monitoring of project costs with the team organization of the creation of a *project Story map* in order to prioritize the tasks. Drafting of specifications in partnership with Worldline software architects and the various service providers forming part of the project using the tool *Confluence*. Monitoring of the implementation of a test bench and industrialized integration of the solution via test benchs developed in *Node.js* with the implementation of continuous integration tools such as *Gitlab-Ci* or *jenkins*. Preparation of development sprints though various Agile ceremonies.
+
+===== Paris parking meter centralized management system 2018-2020
+
+Project management in a team of 5 for the following of a centralized system status of parking meters in the City of Paris.
+
+My missions -> Monitoring of production and upgrades in an evolving or corrective service developed in *Java* ; *Android* update of the mobile support for Paris agents (Mobile application integrating tours with the list of tasks to be performed by parking meter to fix). Presentation of the monitoring of the solution to the city of Paris; Involvement in the call for tenders for renewal of the service with the City of Paris with a component focused on the risk analysis carried out on the advanced obsolescence of the tool, in particular, the front part of the application developed with deprecated flashplayer plugins with an end of life scheduled for December 31, 2020; Financial monitoring, customer invoicing and supplier payment.
+
+===== Orange 2018 -2019
+
+Project management in a team of 5 people, decommissioning and internalization of Worldline services between Orange and external partners (Fnac - Deezer - Microsoft…).
+
+My missions -> Monitoring of the decommissioning of services with Oranges and partner teams; Monitoring of the production and achievements of the development teams; overhaul of the project methodology following the various retrospectives put in place with the aim of strengthening the relationship between Worldline and Orange. Review of Jira workflows, implementation of performance indicators to analyze and improve the productivity of Worldline and Orange teams.
+
+==== Application developer Orange 2016 – 2018
+
+*JAVA / Node.js* developments of the back end of Orange mobile applications (My Livebox - Cineday ...)
+
+My missions -> Development of a centralized subscription and payment system for the catalog of Orange offers. Monitoring the deployment of applications via specific Orange tools; level 3 support, involving an analysis of abnormal behavior of the application reported by end customers
+
+
+=== IN-CORE Systèmes 2013-2016
+
+==== Developer
+Design and implementation of a program to help create a vision system in JAVA, production of test tools in linux real-time.
+
+== Education
+
+=== CPE Lyon 2013-2016
+
+Engineer diploma in computer science specializing in robotics
+
+=== DUT Electrical engineering and industrial IT Lyon 2011-2013
+Electronic specialization
+
+=== Baccalaureate in Industrial Sciences and Technologies 2011
+
+Electrical engineering (with good mention)
+

@@ -28,6 +28,8 @@ a|image::principes.png[align=center]|*principles of development :*
 a|image::furby.png[align=center]| *About*
 
 <<asciidoc.adoc#,About this documentation>>
+
+<<resume.adoc#,resume>>
 |===
 
 https://www.iconfinder.com/iconsets/kameleon-free-pack-rounded[Images sources]

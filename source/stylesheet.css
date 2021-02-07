@@ -177,13 +177,13 @@ p aside { font-size: 0.93333em; line-height: 1.35; font-style: italic; }
 h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 { font-family: helvetica, arial, freesans, clean, sans-serif; font-weight: bold; font-style: normal; color: #333333; text-rendering: optimizeLegibility; margin-top: 0.2em; margin-bottom: 0.5em; line-height: 1.2em; }
 h1 small, h2 small, h3 small, #toctitle small, .sidebarblock > .content > .title small, h4 small, h5 small, h6 small { font-size: 60%; color: gray; line-height: 0; }
 
-h1 { font-size: 1.33333em; }
+h1 { font-size: 1.6em; }
 
-h2 { font-size: 0.93333em; }
+h2 { font-size: 1.4em; }
 
-h3, #toctitle, .sidebarblock > .content > .title { font-size: 0.86667em; }
+h3, #toctitle, .sidebarblock > .content > .title { font-size: 1.2em; }
 
-h4 { font-size: 0.66667em; }
+h4 { font-size: 1em; }
 
 h5 { font-size: 1em; }
 
