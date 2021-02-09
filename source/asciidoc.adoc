@@ -31,4 +31,4 @@ If you connect to my github connected to this project, https://github.com/floria
 
 Each diagram you will find in this documentation is developed and processed trough Plant UML.
 
-PlantUML[https://plantuml.com/en/] is an opensource tool to develop diagram
+https://plantuml.com/en/[Plant UML] is an opensource tool to develop diagram

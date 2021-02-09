@@ -9,9 +9,9 @@ error_function () {
    exit
 }
 
-sudo gem install coderay
-sudo gem install pygments.rb
-sudo gem install asciidoctor-diagram
+ gem install coderay
+ gem install pygments.rb
+ gem install asciidoctor-diagram
 
 echo "html data cleaning"
 rm *.html
